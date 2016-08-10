@@ -30,7 +30,7 @@ do {
     } else {
         
         //发到客户端
-        $msg ="测试成功个锤子！\n";
+        $msg ="没有成功！\n";
         socket_write($msgsock, $msg, strlen($msg));
         
         echo "测试成功\n";
